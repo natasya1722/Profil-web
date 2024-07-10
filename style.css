@@ -1,0 +1,93 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: rgb(247, 247, 247);;
+}
+
+.navbar {
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    height: 6vh;
+}
+
+.ul-navbar{
+    display: flex;
+    height: 50px;
+    justify-content : center;
+    align-items: center;
+}
+
+.li-navbar{
+    list-style: none;
+    padding: 50px;
+    margin: 25px;
+    font-size: 50px;
+}
+
+.li-navbar :hover{
+    background-color: rgb(204, 204, 204);
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800        ;
+}
+
+.content1 {
+    background-color: rgb(0, 0, 0);
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content {
+    width: 460px;
+    height: 415px;
+}
+
+.p-pencet {
+    color: black;
+    font-size: 30px;
+}
+
+.a-youtube {
+    width: 460px;
+    height: 515px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(156, 168, 179);
+    box-shadow: 10px 5px 5px rgb(207, 207, 207);
+    flex-direction: column  ;
+    text-decoration: none;
+}
+
+.div-about {
+    color: white;
+}
+
+.h1-contack {
+    color: white;
+}
+
+.footer{
+    background-color: rgb(26, 24, 24);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer{
+    font-size: 40px;
+    color: white;
+}
+
